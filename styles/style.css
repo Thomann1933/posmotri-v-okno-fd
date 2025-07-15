@@ -9,6 +9,8 @@ html {
 }
 
 .page {
+  display: grid;
+  place-items: center center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -17,8 +19,6 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-    display: grid;
-  place-items: center center;
 }
 
 h1,
@@ -68,7 +68,6 @@ ol {
   align-items: end;
   gap: 30px;
   grid-template-columns: 711px 399px;
-  grid-template-areas: 'result content__details';
 }
 
 .result {
@@ -218,7 +217,6 @@ margin: 0px 0px 46px 0px;
 }
 
 .content__details {
-  grid-area: content__details;
   display: flex;
   flex-direction: column;
   block-size: 100%;
