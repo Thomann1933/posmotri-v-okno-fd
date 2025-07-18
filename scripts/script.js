@@ -268,9 +268,9 @@ function showMoreCards({
   if (dataArray.pagination.page === dataArray.pagination.pageCount) return;
   // добавить кнопку из темплейта в конец списка карточек
   const button = buttonTemplate.content.cloneNode(true);
-  cardsList.append(button);
+  cardsContainer.append(button);
   // Выберем добавленный элемент по селектору и добавим слушатель клика
-  const buttonInDOM = cardsList.querySelector(buttonSelector);
+  const buttonInDOM = cardsContainer.querySelector(buttonSelector);
   buttonInDOM.addEventListener('click', async () => {
     // по клику запросим данные для следующей страницы
     let currentPage = dataArray.pagination.page;
