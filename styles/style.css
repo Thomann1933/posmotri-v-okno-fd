@@ -67,7 +67,7 @@ ol {
    display: grid;
   grid-template-columns: 711px 399px;
   gap: 30px;
-  padding: 133px 30px 61px;
+  padding: 130px 30px 92px;
   max-width: 1200px;
   width: 100%;
 }
@@ -239,7 +239,7 @@ margin: 79px 0px 46px 0px;
   max-width: 100%;
   flex-grow: 1;
   overflow-y: unset;
-  padding: 0px 7px 0px 2px;
+  padding: 0px 3px 0px 2px;
 }
 
 .content__list-container { 
