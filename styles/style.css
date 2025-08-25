@@ -64,14 +64,17 @@ ol {
 
 .content {
    display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 711px 399px;
   gap: 30px;
-  padding: 130px 30px 92px;
+  padding: 0 30px;
   width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 .result {
-margin: 79px 0px 46px 0px;
+margin: 208px 0px 46px 0px;
 }
 
 .result__video-container {
@@ -130,6 +133,11 @@ margin: 79px 0px 46px 0px;
   line-height: normal;
   min-inline-size: 225px;
   max-inline-size: 225px;
+}
+
+.search-form__textfield::placeholder {
+  color: rgba(255, 255, 255, 0.7); 
+  opacity: 1; 
 }
 
 .search-form__checkbox-list {
@@ -200,8 +208,7 @@ margin: 79px 0px 46px 0px;
   outline: none;
 }
 
-.button:active,
-.content__list-item:active {
+.button:active {
   background: #545050;
   text-decoration: none;
 }
@@ -216,9 +223,11 @@ margin: 79px 0px 46px 0px;
 .content__details {
   display: flex;
   flex-direction: column;
-
+  max-width: 399px;
+  max-height: 534px;
   gap: 26px;
-  margin: 0px;
+   margin-top: 130px;  
+  margin-bottom: 128px;
 }
 
 .title {
@@ -278,6 +287,7 @@ margin: 79px 0px 46px 0px;
   flex-direction: column;
   gap: 6px;
   min-width: 0;
+  max-width: 200px;
 }
 
 .content__video-card-title {
