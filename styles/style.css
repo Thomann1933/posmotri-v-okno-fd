@@ -72,10 +72,11 @@ ol {
   max-width: 1200px;
   margin: 0 auto;
   justify-content: center;
+  place-items: end;
 }
 
 .result {
-margin: 208px 0px 46px 0px;
+padding: 8px;
 }
 
 .result__video-container {
@@ -227,8 +228,6 @@ margin: 208px 0px 46px 0px;
   max-width: 399px;
   max-height: 534px;
   gap: 26px;
-   margin-top: 130px;  
-  margin-bottom: 128px;
 }
 
 .title {
